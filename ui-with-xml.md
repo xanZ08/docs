@@ -422,7 +422,7 @@ When refering to code-only components in your pages with an `xmlns` declaration 
 
 ### Example: Custom XML-Based Component with code file
 
-This sample `main-page.xml` uses a custom component defined in a `xml-declaration/mymodulewithxml/MyControl.xml`file together with `xml-declaration/mymodulewithxml/MyControl.js` or `xml-declaration/mymodulewithxml/MyControl.ts` code file. 
+This sample `main-page.xml` uses a custom component defined in a `xml-declaration/mymodulewithxml/MyControl.xml`file together with `xml-declaration/mymodulewithxml/MyControl.js` or `xml-declaration/mymodulewithxml/MyControl.ts` code file. The namespace (xml-declaration/mymodulewithxml) is path where the UI builder will search for XML file with component name (MyControl.xml).
 
 ```XML
 <Page
