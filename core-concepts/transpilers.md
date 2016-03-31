@@ -6,9 +6,9 @@ slug: transpilers
 previous_url: /transpilers
 ---
 
-# Using transpilers in NativeScript
+# Using Transpilers in NativeScript
 
-Transpilers allow you to develop your application in languages other than JavaScript, CSS and XML. NativeScript applications can be developed more comfortably when transpilers are used in the project. NativeScript projects support two transpilers out-of-the-box - TypeScript and Babel, although any other transpiler can be integrated through the necessary hooks.
+Transpilers allow you to develop your application in languages other than JavaScript, CSS and XML. NativeScript applications can be developed more comfortably when transpilers are used in the project. NativeScript projects support two transpilers out-of-the-box &mdash; TypeScript and Babel &mdash; although any other transpiler can be integrated through the necessary hooks.
 
 ## Installing TypeScript
 
@@ -18,7 +18,7 @@ Run the following command to install TypeScript support into your project:
 tns install typescript
 ```
 
-The above command installs the TypeScript compiler and the `nativescript-dev-typescript` npm module as dev dependencies. The latter installs the necessary `prepare` and `livesync` hooks into your project, so that the TypeScript files in your project are automatically transpiled during build and when live-syncing.
+The above command installs the TypeScript compiler and the `nativescript-dev-typescript` npm module as dev dependencies. The latter installs the necessary `prepare` and `livesync` hooks into your project so that the TypeScript files in your project are automatically transpiled during build and when live-syncing.
 
 It also creates a `tsconfig.json` file in the root of your project that contains the compiler configuration. You can edit it to change the configuration.
 
@@ -32,7 +32,7 @@ Run the following command to install Babel support into your project:
 tns install babel
 ```
 
-The above command installs the Babel compiler and the `nativescript-dev-babel` npm module as a dev dependencies. The latter installs a `prepare` hook into your project, that transpiles your JavaScript files with Babel during build and when live-syncing.
+The above command installs the Babel compiler and the `nativescript-dev-babel` npm module as a dev dependencies. The latter installs a `prepare` hook into your project that transpiles your JavaScript files with Babel during build and when live-syncing.
 
 If you want to change the version of the Babel compiler used in your project, simply install the version you want into your project through npm.
 
