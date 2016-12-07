@@ -1,7 +1,7 @@
 ---
 title: Setup Android Emulators
 description: How to create, set up and use AVDs (Android emulators).
-position: 60
+position: 70
 slug: android-emulators
 ---
 

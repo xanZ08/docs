@@ -1,7 +1,7 @@
 ---
 title: Bundling Script Code with Webpack
 description: Learn how to optimize your code and reduce application size.
-position: 40
+position: 50
 slug: bundling-with-webpack
 previous_url: /core-concepts/bundling-with-webpack
 ---
