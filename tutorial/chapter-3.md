@@ -143,7 +143,7 @@ It's time to see how data flows back and forth between the front end and back en
 Open `login.xml` and add an `id="email"` attribute to the email text field. Its markup should look like this:
 
 ``` XML
-<TextField id="email" hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
+<TextField name="email"  hint="Email Address" keyboardType="email" autocorrect="false" autocapitalizationType="none" />
 ```
 
 With an `id` attribute in place, you can access this text field in your code-behind file. To do that, start by opening `app/views/login/login.js` and adding the two lines of code below at the top of the file, underneath the `frameModule` variable.
